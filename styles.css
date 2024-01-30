@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
 }
 
 .wrapper {
@@ -10,11 +11,13 @@
     overflow-x: hidden;
     overflow-y: auto;
     perspective: 100px;
+
    
 }
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -48,6 +51,7 @@ h1 {
 
 .bg {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 400px;
